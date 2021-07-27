@@ -1,21 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Hero from '../Hero'
 
-function Nav() {
-
+function Nav(props) {
     return (
-        <header class="flex justify-evenly">
-            <nav class="">
-                <a href="/" class="" aria-current="page">Portfolio.<span class="logo-2">Sam</span></a>
-                <a href="#projects" class="">Projects</a>
+        <div>
+        <header className="flex justify-evenly">
+            <nav className="">
+                <a href="/" className="nav" aria-current="page">Portfolio.<span className="logo-2">Sam</span></a>
+                <a href="#projects" className="nav" onClick={() => props.setCurrentPage("Projects")}>Projects</a>
             </nav>
 
-            <img class="h-40 w-110 rounded-full" src={require("../../asset/img/mini.png").default} alt="mini" />
+            <img className="h-40 w-110 rounded-full" src={require("../../asset/img/mini.png").default} alt="mini" />
 
-            <div class="">
-                <a href="#" class="">Connect!</a>
-                <a href="#" class="">Resume</a>
+            <div className="">
+                <a href="#connect" className="nav" onClick={() => props.setCurrentPage("Connect")}>Connect!</a>
+                <a href="#resume" className="nav" onClick={() => props.setCurrentPage("Resume")}>Resume</a>
             </div>
         </header>
+            <Hero />
+        </div>
 
     )
 }

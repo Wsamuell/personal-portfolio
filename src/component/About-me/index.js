@@ -4,9 +4,9 @@ function About() {
 
     return (
 
-        <div class="">
-            <div class='about-paragraph flex justify-evenly'>
-                <img class='h-60' src={require("../../asset/img/main.png").default} alt='authors-img' />
+        <div className="">
+            <div className='about-paragraph flex justify-evenly'>
+                <img className='h-60' src={require("../../asset/img/main.png").default} alt='authors-img' />
                 <div>
                     <h2>Hello There! I'm Samuel. Nice you finally meet you</h2>
                     <p>Ambitious, courageous, dedicated, and Hardworking</p>
@@ -16,16 +16,16 @@ function About() {
                     <p>Im available in office or remotely and also available to relocate</p>
                 </div>
             </div>
-            <article class="flex justify-evenly">
-                <div class="text-center space-y-2 sm:text-left">
-                    <div class="space-y-0.5">
-                        <p class="text-lg text-black font-semibold">
+            <article className="flex justify-evenly">
+                <div className="text-center space-y-2 sm:text-left">
+                    <div className="space-y-0.5">
+                        <p className="text-lg text-black font-semibold">
                             Front-end
                         </p>
-                        <p class="">
+                        <p className="">
                             I value the UX perspective of design because as well all know, that what brings in the customers, for this reason i strive daily to become better at my craft as a front end designer
                         </p>
-                        <p class="font-medium">
+                        <p className="font-medium">
                             My Tools
                         </p>
                         <ul>
@@ -53,15 +53,15 @@ function About() {
                         </ul>
                     </div>
                 </div>
-                <div class="text-center space-y-2 sm:text-left">
-                    <div class="space-y-0.5">
-                        <p class="text-lg text-black font-semibold">
+                <div className="text-center space-y-2 sm:text-left">
+                    <div className="space-y-0.5">
+                        <p className="text-lg text-black font-semibold">
                             Back-end
                         </p>
-                        <p class="">
+                        <p className="">
                         I dont just thieve on the Front-end, we can take it out back too
                         </p>
-                        <p class="font-medium">
+                        <p className="font-medium">
                             My Tools
                         </p>
                         <ul>
