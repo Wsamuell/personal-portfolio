@@ -1,14 +1,14 @@
 import React from 'react'
-import { Document } from 'react-pdf'
+import { Document, Page } from 'react-pdf'
+import CurrentPdf from './resume.pdf'
 
 function Resume() {
 
     return (
         <div>
-            <Document
-               file= {{url: "https://docs.google.com/document/d/1oIL6i7CuC1ZKXQhqjkA-LfXXpfh7NwebFpkGk8bAbF4/edit?usp=sharing"}}
-            >
-            </Document>
+            <Document file={CurrentPdf}>
+        <Page pageNumber={1} ></Page>
+                </Document>
         </div>
     )
 }

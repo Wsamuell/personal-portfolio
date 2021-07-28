@@ -6,7 +6,7 @@ function Hero() {
 
         <hero className=''>
             <div className='flex justify-evenly'>
-                <h2>Front-end, Back-end <span>DEVELOPER</span></h2>
+                <h2>Front-End ... Back-End <span className='ho-dev'>DEVELOPER</span></h2>
                 <p>To new Beginnings...</p>
             </div>
             <div className='flex justify-evenly'>
