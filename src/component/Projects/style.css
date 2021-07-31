@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Rock+Salt&family=Source+Sans+Pro&display=swap');
+.project-title {
+    color: 	#d4af37;
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+.project-list {
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.console {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.console:hover{
+    padding: 20px;
+    transform: scale(1.2);
+    opacity: 0.5;
+    transition: 0.2s;
+    margin: 0;
+}

@@ -18,3 +18,7 @@
 .ho-dev {
     font-size: 35px;
 }
+
+.ho-dev:hover {
+    color: white
+}

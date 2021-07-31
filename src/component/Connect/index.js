@@ -20,10 +20,6 @@ function Connect() {
                 <div>
                     <a href="https://github.com/Wsamuell" target="_blank"> Github</a>
                 </div>
-                <div>
-                    <a href="tel:480-765-7968"> (480)-765-7968</a>
-                </div>
-
 
             </form>
         </section>

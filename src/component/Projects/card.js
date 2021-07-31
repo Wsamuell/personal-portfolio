@@ -4,20 +4,16 @@ import React from 'react';
 function Card(props) {
 
     return (
-        <div>
-            <div className='img-container'>
-            <a href={props.link} target='_blank'><img alt={props.name} src={(props.image)} /></a>
+
+        <div className="console flex flex-wrap max-w-md">
+            <div className='text-center'>
+                <a href={props.link} target='_blank'><img className='project-img object-fill h-40 w-full rounded-2xl shadow-xl' alt={props.name} src={(props.image)} /></a>
             </div>
-            <div className="content">
-                <ul>
-                    <li>
-                    {props.name}
-                    </li>
-                    <li>
-                     {props.description}
-                    </li>
-                </ul>
-            </div>
+            {/* <div>
+                    <p className='text-left project-desc'>
+                        {props.description}
+                    </p>
+                </div> */}
         </div>
     );
 }

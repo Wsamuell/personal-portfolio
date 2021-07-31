@@ -14,7 +14,7 @@ function About() {
                     <div className='md:justify-center -mt-16'>
                         <img className='w-20 h-20 object-cover rounded-full' src={require("../../asset/img/mini.png").default} alt='authors-img' />
                     </div>
-                    <h1 className='intro'>Hello There! I'm Sam... Nice you finally meet you</h1>
+                    <h1 className='intro'>Hello There! I'm Sam... Nice to finally meet you</h1>
                     <div className='about-text'>
                         <p>Ambitious, courageous, dedicated, and Hardworking</p>
                         <br />
