@@ -3,7 +3,7 @@
         "id": 1,
         "name": "myGame",
         "image": "project/myGame.png",
-        "description": "An interactive full stack experience app  with both a front end and a backend that allows users to post stats as a collective group of friends, everyone on the app knows each other other; hence a social media platform ",
+        "description": "An interactive app with both a front and a backend that allows users to post stats as a collective group of friends",
         "link": "https://mygameproject2.herokuapp.com"    
     },
     {
