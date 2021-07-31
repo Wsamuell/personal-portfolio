@@ -2,6 +2,7 @@
 .about-paragraph {
     padding: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
 
 }
 .about-background-container{
@@ -13,4 +14,5 @@
 }
 .intro {
     font-size: 25px;
+    font-weight: 600;
 }

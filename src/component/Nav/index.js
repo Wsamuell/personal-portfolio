@@ -7,18 +7,14 @@ function Nav(props) {
     })
 
     return (
-        <header className="flex justify-evenly">
-            <nav className="py-12 space-x-8 md:space-x-40 sm:space-x-1">
-                    <a href="/" className="" aria-current="page" onClick={() => props.setCurrentPage("Portfolio.Sam")}>Portfolio.<span className="logo-2">Sam</span></a>
-                    <a href="#projects" className="" onClick={() => props.setCurrentPage("Projects")}>Projects</a>
-            </nav>
+        <header className="flex justify-between md:flex-grow-0 sm:justify-center sm:flex-col">
+                <a href="/" className="" aria-current="page" onClick={() => props.setCurrentPage("Portfolio.Sam")}>Portfolio.<span className="">Sam</span></a>
+                <a href="#projects" className="" onClick={() => props.setCurrentPage("Projects")}>Projects</a>
 
-            <img className="h-40 w-110 rounded-full ring-4 ring-yellow-500 ring-opacity-81" src={require("../../asset/img/mini.png").default} alt="mini" />
+                <img className="rounded-full center-img" src={require("../../asset/img/main.png").default} alt="mini" />
 
-            <div className="py-12 space-x-20">
                 <a href="#connect" className="" onClick={() => props.setCurrentPage("Connect")}>Connect!</a>
-                <a href="https://docs.google.com/document/d/1oIL6i7CuC1ZKXQhqjkA-LfXXpfh7NwebFpkGk8bAbF4/edit?usp=sharing" target="_blank" className="">Resume</a>
-            </div>
+                <a href="https://docs.google.com/document/d/1oIL6i7CuC1ZKXQhqjkA-LfXXpfh7NwebFpkGk8bAbF4/edit?usp=sharing" target="_blank" className="bg-yellow-500 hover:bg-yellow-200 rounded-lg resume-link">Resume</a>
         </header>
 
     )

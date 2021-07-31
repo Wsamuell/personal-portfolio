@@ -4,7 +4,7 @@ header {
     font-size: 25px ;
     background-color: black;
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
   }
   
 span {
@@ -12,4 +12,22 @@ span {
 }
 nav {
     padding: 10px;
+}
+.center-img {
+    width: 17%;
+    transform: rotate(25deg);
+}
+button {
+    color: 	#d4af37;
+}
+a {
+    height: 5%;
+    line-height: 40px;
+    
+}
+a:hover {
+    color: #d4af37;
+}
+.resume-link {
+    padding: 5px;
 }

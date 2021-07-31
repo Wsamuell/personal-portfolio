@@ -3,6 +3,7 @@
         "browserslist",
         "compat",
         "craco",
+        "headshot",
         "tailwindcss"
     ]
 }

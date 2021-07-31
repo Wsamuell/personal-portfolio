@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
 import About from '../About-me';
-import Resume from '../Resume';
 import Connect from '../Connect';
 import Projects from '../Projects'
 
@@ -13,8 +12,6 @@ function Portfolio() {
         switch (currentPage) {
             case 'Portfolio.Sam':
                 return <About />;
-            case 'Resume':
-                return <Resume />;
             case 'Connect':
                 return <Connect />;
             case 'Projects':
