@@ -11,8 +11,22 @@
 }
 .about-text{
     padding: 20px;
+    padding-bottom: 80px;
 }
 .intro {
     font-size: 25px;
     font-weight: 600;
+}
+.tools {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+
+}
+.tool-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.tool-title-sm {
+    font-weight: 600;
+    font-size: 15px;
 }
