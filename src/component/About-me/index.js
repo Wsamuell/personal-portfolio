@@ -1,20 +1,30 @@
 import React from 'react';
+import Hero from '../Hero'
+import '../About-me/style.css'
+
 
 function About() {
 
     return (
 
-        <div className="">
-            <div className='about-paragraph flex justify-evenly'>
-                <img className='h-60' src={require("../../asset/img/main.png").default} alt='authors-img' />
-                <div>
-                    <h2>Hello There! I'm Samuel. Nice you finally meet you</h2>
+        <div className="about">
+            <Hero />
+            <div className='about-background-container'>
+            <div className='about-paragraph mx-8'>
+                <img className='h-60 flex justify-center' src={require("../../asset/img/main.png").default} alt='authors-img' />
+                    <h1 className='intro'>Hello There! I'm Sam. Nice you finally meet you</h1>
+                <div className='about-text'>
                     <p>Ambitious, courageous, dedicated, and Hardworking</p>
+                    <br />
                     <p>These are some of the words used to describe me over my last couple of experiences either as a student or a professional in the industry. I'm willing to put in the time and the effort no one else would all with a smile on my face</p>
+                    <br />
                     <p>My prior experiences tells so much about me and my success in many different aspects of service but I don't like to let past experiences define me since life is about growing and developing new skills. Life is about learning and teaching yourself new ways to get to your derived goal</p>
+                    <br />
                     <p>I have a modern perspective on life & I love designing contemporary styled products</p>
+                    <br />
                     <p>Im available in office or remotely and also available to relocate</p>
                 </div>
+            </div>
             </div>
             <article className="flex justify-evenly">
                 <div className="text-center space-y-2 sm:text-left">
@@ -59,7 +69,7 @@ function About() {
                             Back-end
                         </p>
                         <p className="">
-                        I dont just thieve on the Front-end, we can take it out back too
+                            I dont just thieve on the Front-end, we can take it out back too
                         </p>
                         <p className="font-medium">
                             My Tools

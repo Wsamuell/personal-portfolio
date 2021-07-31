@@ -1,18 +1,23 @@
 import React from 'react';
+import '../Hero/style.css'
 
 function Hero() {
 
     return (
 
-        <hero className=''>
-            <div className='flex justify-evenly'>
+        <section className='hero'>
+            <div className='flex justify-evenly hero-top'>
                 <h2>Front-End ... Back-End <span className='ho-dev'>DEVELOPER</span></h2>
-                <p>To new Beginnings...</p>
             </div>
             <div className='flex justify-evenly'>
-                <img className='' src={require("../../asset/img/new-begin.png").default} alt='heart-beat-img'/>
+                <video className='' autoPlay loop muted>
+                    <source src={require("../../asset/img/Golden.mp4").default} type='video/mp4' />
+                </video>
             </div>
-        </hero>
+            <div className='flex justify-evenly'>
+                <p className='hero-bottom'>To new Beginnings...</p>
+            </div>
+        </section>
     )
 }
 

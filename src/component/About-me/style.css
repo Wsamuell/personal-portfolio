@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Rock+Salt&family=Source+Sans+Pro&display=swap');
+.about-paragraph {
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.about-background-container{
+    background-color:#ffff;
+
+}
+.about-text{
+    padding: 20px;
+}
+.intro {
+    font-size: 25px;
+}
