@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../Connect/style.css'
 
 
@@ -9,9 +9,9 @@ function Connect() {
             <p className='contact-header'>Lets get Connected</p>
             <div className='contact-form flex-wrap max-w-3xl'>
                 <div className='object-contain'>
-                    <img src={require("../../asset/img/contact-dogs.jpg").default} alt='picture of dogs' />
+                    <img className='h-full w-full' src={require("../../asset/img/contact-dogs.jpg").default} alt='picture of dogs' />
                 </div>
-                <p className='contact-text text-center'>Lets admire the dogs together! For any kind of inquires, please feel free to reach out through the platform Below </p>
+                <p className='contact-text text-center'>Lets admire the dogs together! For any kind of inquires, please feel free to reach out through the platforms Below </p>
                 <div className='flex flex-col contact-form shadow-2xl rounded-lg  text-center'>
                     <div className='flex flex-row justify-evenly contact-icons'>
                         <a href="mailto:wemsamuel@gmail.com"><img className='w-20 h-20 text-center ux-img object-center' src={require("../../asset/img/gmail.png").default} alt='gmail-icon' /></a>

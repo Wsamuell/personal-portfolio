@@ -6,10 +6,10 @@ import '../Footer/style.css'
 function Footer() {
 
     return (
-        <footer class="footer bg-white relative pt-1 border-b-2 ">
-            <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
-                <div class="sm:w-2/3 text-center py-6">
-                    <p class=" font-bold mb-2">
+        <footer className="footer bg-white relative pt-1 border-b-2 ">
+            <div className="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+                <div className="sm:w-2/3 text-center py-6">
+                    <p className=" font-bold mb-2">
                         © 2021 Created and styled by <span>Samuel O.</span>
                     </p>
                     <div className='flex flex-row justify-evenly text-center'>
