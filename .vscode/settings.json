@@ -4,6 +4,8 @@
         "compat",
         "craco",
         "headshot",
+        "linkedin",
+        "predeploy",
         "tailwindcss"
     ]
 }

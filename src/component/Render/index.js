@@ -10,6 +10,8 @@ function Portfolio() {
 
     const renderPage = () => {
         switch (currentPage) {
+            case 'Portfolio.Sam':
+                return <About />;
             case 'Connect':
                 return <Connect />;
             case 'Projects':

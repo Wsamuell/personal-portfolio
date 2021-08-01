@@ -8,7 +8,7 @@ function Nav(props) {
 
     return (
         <header className="flex justify-between md:flex-grow-0 sm:items-center sm:flex-col">
-                <a href="/" className="" aria-current="page">Portfolio.<span className="">Sam</span></a>
+                <a href="#about" className="" aria-current="page" onClick={() => props.setCurrentPage("About")}>Portfolio.<span className="">Sam</span></a>
                 <a href="#projects" className="" onClick={() => props.setCurrentPage("Projects")}>Projects</a>
 
                 <img className="rounded-full center-img" src={require("../../asset/img/main.png").default} alt="mini" />
