@@ -31,3 +31,10 @@ a:hover {
 .resume-link {
     padding: 5px;
 }
+
+@media (max-width: 550px) { 
+header {
+    justify-content: center;
+}    
+
+}
