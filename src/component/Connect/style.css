@@ -20,3 +20,9 @@
 .contact-text {
     font-size: 20px;
 }
+
+@media (max-width: 550px) { 
+    .contact-header {
+        font-size: 20px;
+    }
+    }    
