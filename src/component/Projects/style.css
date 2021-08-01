@@ -9,6 +9,8 @@
   }
 .project-list {
     padding: 20px;
+    font-weight: 700;
+    font-size: 17px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -26,13 +28,13 @@
 .console:hover  .overlay{
     transform: scale(1);
     opacity: 1;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
     margin: 5px;
 }
 .overlay {
     position: absolute;
     opacity: 0;
-    transition: .5s ease;
+    transition: .5s ease-in-out;
     color: black;
     text-align: center;
     width: 100%;

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Rock+Salt&family=Source+Sans+Pro&display=swap');
+.contact-header {
+    color: 	#d4af37;
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+.contact {
+    margin: 20px;
+}
+.contact-form {
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-icons {
+    padding: 15px;
+}
+.contact-text {
+    font-size: 20px;
+}
