@@ -1,7 +1,7 @@
 import React from 'react';
-import Render from './component/Render'
 import Footer from './component/Footer'
 
+import Render from './component/Render'
 function App() {
   return (
     <div className="App">

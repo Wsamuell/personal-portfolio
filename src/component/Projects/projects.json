@@ -1,6 +1,13 @@
 [
     {
         "id": 1,
+        "name": "Health Wealth",
+        "image": "project/health-wealth.png",
+        "description": "A community of well-being that allows you to earn points by creating and sharing healthy habits and goals",
+        "link": "https://healthwealth.herokuapp.com/"    
+    },
+    {
+        "id": 1,
         "name": "myGame",
         "image": "project/myGame.png",
         "description": "An interactive app with both a front and a backend that allows users to post stats as a collective group of friends",
