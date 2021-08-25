@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.1500f3fb.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.429ceafc.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.429ceafc.chunk.js.map",
-    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.f3c2e9c5.js",
-    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.f3c2e9c5.js.map",
-    "static/js/2.daae9140.chunk.js": "/personal-portfolio/static/js/2.daae9140.chunk.js",
-    "static/js/2.daae9140.chunk.js.map": "/personal-portfolio/static/js/2.daae9140.chunk.js.map",
-    "static/js/3.2e00860b.chunk.js": "/personal-portfolio/static/js/3.2e00860b.chunk.js",
-    "static/js/3.2e00860b.chunk.js.map": "/personal-portfolio/static/js/3.2e00860b.chunk.js.map",
+    "main.js": "/personal-portfolio/static/js/main.4b9fd223.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.4b9fd223.chunk.js.map",
+    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.d34d5919.js",
+    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.d34d5919.js.map",
+    "static/js/2.aa625bb7.chunk.js": "/personal-portfolio/static/js/2.aa625bb7.chunk.js",
+    "static/js/2.aa625bb7.chunk.js.map": "/personal-portfolio/static/js/2.aa625bb7.chunk.js.map",
+    "static/js/3.52ee8a33.chunk.js": "/personal-portfolio/static/js/3.52ee8a33.chunk.js",
+    "static/js/3.52ee8a33.chunk.js.map": "/personal-portfolio/static/js/3.52ee8a33.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
     "static/css/main.1500f3fb.chunk.css.map": "/personal-portfolio/static/css/main.1500f3fb.chunk.css.map",
-    "static/js/2.daae9140.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.daae9140.chunk.js.LICENSE.txt",
+    "static/js/2.aa625bb7.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.aa625bb7.chunk.js.LICENSE.txt",
     "static/media/Golden.mp4": "/personal-portfolio/static/media/Golden.4f4ed880.mp4",
     "static/media/back-end.png": "/personal-portfolio/static/media/back-end.918d8b12.png",
     "static/media/contact-dogs.jpg": "/personal-portfolio/static/media/contact-dogs.4c3fc402.jpg",
@@ -23,9 +23,9 @@
     "static/media/mini.png": "/personal-portfolio/static/media/mini.ccfd3eeb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3c2e9c5.js",
-    "static/js/2.daae9140.chunk.js",
+    "static/js/runtime-main.d34d5919.js",
+    "static/js/2.aa625bb7.chunk.js",
     "static/css/main.1500f3fb.chunk.css",
-    "static/js/main.429ceafc.chunk.js"
+    "static/js/main.4b9fd223.chunk.js"
   ]
 }
