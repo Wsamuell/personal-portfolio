@@ -53,8 +53,8 @@
 
 .overlay .project-desc {
     position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left:20%;
+    transform: translate(-20%, -20%);
     pointer-events: none;
 }
