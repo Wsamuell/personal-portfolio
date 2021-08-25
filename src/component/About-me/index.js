@@ -39,7 +39,6 @@ function About() {
                         <div className='flex justify-center'>
                             <img className='w-20 h-20 text-center ux-img' src={require("../../asset/img/back-end.png").default} alt='ux-img' />
                         </div>
-                        <br />
                         <p className="tool-title">Back-End</p>
                         <br />
                         <p className="">What would a structure be without its bones, the backend is a vigorous part of my stack. I am well versed in many backend entities  and I am always up for a challenge to learn new things to add to my stack
