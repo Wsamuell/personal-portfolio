@@ -4,41 +4,52 @@
         "name": "Health Wealth",
         "image": "project/health-wealth.png",
         "description": "A community of well-being that allows you to earn points by creating and sharing healthy habits and goals",
-        "link": "https://healthwealth.herokuapp.com/"    
+        "link": "https://bit.ly/2WgrAQV",
+        "repo": "https://bit.ly/3zjWVjI"
+            
     },
     {
         "id": 1,
         "name": "myGame",
         "image": "project/myGame.png",
         "description": "An interactive app with both a front and a backend that allows users to post stats as a collective group of friends",
-        "link": "https://mygameproject2.herokuapp.com"    
+        "link": "https://bit.ly/3yhVEbR",
+        "repo": "https://bit.ly/3jeZxty"    
     },
     {
         "id": 2,
         "name": "You + Me",
         "image": "project/you+me.png",
         "description": "Food recipe generator that uses fetch API calls to generate random recipes",
-        "link": "https://natasharrison.github.io/generate-date/"    
+        "link": "https://bit.ly/3sJPNuG",
+        "repo": "https://bit.ly/2WhMKhC"
+    
     },
     {
         "id": 3,
         "name": "Tech Blog",
         "image": "project/tech-blog.png",
         "description": "Full stack application blog that lets a user post data and comments",
-        "link": "https://sammie-tech-blog.herokuapp.com/"    
+        "link": "https://bit.ly/3Ddrjil",
+        "repo": "https://bit.ly/3zjpEFx"
+    
     },
     {
         "id": 4,
         "name": "Weather Dashboard",
         "image": "project/weather-dashboard.png",
         "description": "Weather app that provides current and future weather forecasts in cities ",
-        "link": "https://wsamuell.github.io/weather-dashboard/"    
+        "link": "https://bit.ly/3yebMed",
+        "repo": "hhttps://bit.ly/3sLJXJa"
+    
     },
     {
         "id": 5,
         "name": "Work Day Scheduler",
         "image": "project/work-day-scheduler.png",
         "description": "Day to day work day planner that lets you keep track of your workday as each hour passes by using the color schemes",
-        "link": "https://wsamuell.github.io/work-day-scheduler/"    
+        "link": "https://bit.ly/3gxwCz7",
+        "repo": "https://bit.ly/3DereuC"
+    
     }
 ]

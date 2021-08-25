@@ -18,6 +18,7 @@ function Projects() {
                         description={project.description}
                         image={project.image}
                         link={project.link}
+                        repo={project.repo}
                     />
 
                 ))}
