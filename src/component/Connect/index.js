@@ -19,9 +19,9 @@ function Connect() {
                         <a href="https://github.com/Wsamuell" target="_blank"> <img className='w-20 h-20 text-center ux-img object-center' src={require("../../asset/img/github.png").default} alt='github-icon' /></a>
                     </div>
                     <div className='contact-text'>
-                        <p>I'm seeking out opportunities to help me grow as a developer and engineer with a company/agencies or individuals that shares the same motive/principles as myself. I would love to bring my high energy and inspiring ideas to help problem solve any task needed while gaining experience to be the best at what i do</p>
+                        <p>I'm seeking out opportunities to help me grow as a developer and engineer with a company/agencies or individuals that shares the same motive & principles as myself. I would love to bring my high energy and inspiring ideas to help problem solve any task as needed while gaining experience to be the best at what i do</p>
                         <br />
-                        <p>Im available in office or remotely and also willing to relocate</p>
+                        <p>Im available in office, remotely, and also willing to relocate</p>
                     </div>
                 </div>
             </div>

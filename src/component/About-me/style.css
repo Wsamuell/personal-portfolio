@@ -9,6 +9,11 @@
     background-color:#ffff;
 
 }
+.name{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    font-size: 40px;
+}
 .about-text{
     padding: 20px;
     padding-bottom: 80px;

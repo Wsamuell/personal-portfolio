@@ -16,6 +16,10 @@
 .card-disp{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+.repo{
+    align-items: center;
 }
 .console {
     margin: 10px;

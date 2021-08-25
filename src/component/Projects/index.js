@@ -19,6 +19,7 @@ function Projects() {
                         image={project.image}
                         link={project.link}
                         repo={project.repo}
+                        tools={project.tools}
                     />
 
                 ))}

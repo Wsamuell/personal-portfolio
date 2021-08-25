@@ -12,11 +12,11 @@ function Footer() {
                     <p className=" font-bold mb-2">
                         © 2021 Created and styled by <span>Samuel O.</span>
                     </p>
-                    <div className='flex flex-row justify-evenly text-center'>
-                        <a href="mailto:wemsamuel@gmail.com"><img className='w-20 h-20 text-center ux-img object-center' src={require("../../asset/img/gmail.png").default} alt='gmail-icon' /></a>
-                        <a href="https://www.linkedin.com/in/samuel-odubamowo-567229207/" target="_blank"><img className='w-20 h-20 text-center ux-img object-center' src={require("../../asset/img/linkedin.png").default} alt='linkedin-icon' /></a>
-                        <a href="https://github.com/Wsamuell" target="_blank"> <img className='w-20 h-20 text-center ux-img object-center' src={require("../../asset/img/github.png").default} alt='github-icon' /></a>
-                    </div>
+                </div>
+                <div className='flex flex-row justify-evenly'>
+                    <a href="mailto:wemsamuel@gmail.com"><img className='w-20 h-20' src={require("../../asset/img/gmail.png").default} alt='gmail-icon' /></a>
+                    <a href="https://www.linkedin.com/in/samuel-odubamowo-567229207/" target="_blank"><img className='w-20 h-20 ux-img' src={require("../../asset/img/linkedin.png").default} alt='linkedin-icon' /></a>
+                    <a href="https://github.com/Wsamuell" target="_blank"> <img className='w-20 h-20 ux-img' src={require("../../asset/img/github.png").default} alt='github-icon' /></a>
                 </div>
             </div>
         </footer>

@@ -14,8 +14,9 @@ function Card(props) {
                         {props.description}
                     </p>
                 </div>
+                <p>Tech Usage: {props.tools}</p>
             </div>
-            <p>Github Repo: {props.repo}</p>
+            <p>Github Repo: <a className='repo' target='_blank' href={props.repo}>{props.repo}</a></p>
         </div>
     );
 }
