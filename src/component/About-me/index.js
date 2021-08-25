@@ -49,6 +49,7 @@ function About() {
                         <br />
 
                         <ul>
+                            <li>GraphQL</li>
                             <li>Node.js </li>
                             <li>Express.js</li>
                             <li>NoSql</li>
