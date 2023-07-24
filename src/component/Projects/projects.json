@@ -4,12 +4,21 @@
     "name": "Crusty Sam",
     "image": "project/crusty-sam.png",
     "description": "Pizza Store management tool that lets owners manage their toppings and chefs make specialty pizza",
-    "tools": "• TypseScript • TailwindCss • ReactJs • Postgrest • ",
+    "tools": "• TypseScript • TailwindCss • ReactJs • Postgrest • Frammer Motion •",
     "link": "https://pizza-man-391321.web.app/",
     "repo": "https://github.com/Wsamuell/pizza-store"
   },
   {
     "key": 2,
+    "name": "Focus",
+    "image": "project/focus.png",
+    "description": "Stay Focused. Boost Productivity. Our Timer App Helps You Manage Time Efficiently.",
+    "tools": "• TypseScript • TailwindCss • ReactJs • Frammer Motion • ",
+    "link": "https://focustimer.firebaseapp.com/",
+    "repo": "https://github.com/Wsamuell/stop-watch"
+  },
+  {
+    "key": 3,
     "name": "Weather Dashboard",
     "image": "project/weather-dashboard.png",
     "description": "Weather app that provkeyes current and future weather forecasts in cities ",
@@ -18,7 +27,7 @@
     "repo": "https://bit.ly/3sLJXJa"
   },
   {
-    "key": 3,
+    "key": 4,
     "name": "Work Day Scheduler",
     "image": "project/work-day-scheduler.png",
     "description": "Day to day work day planner that lets you keep track of your workday as each hour passes by using the color schemes",
@@ -27,7 +36,7 @@
     "repo": "https://bit.ly/3DereuC"
   },
   {
-    "key": 4,
+    "key": 5,
     "name": "You + Me",
     "image": "project/you+me.png",
     "description": "Recipe Randomizer for quick date night idea.",

@@ -22,10 +22,15 @@ function About() {
               <br />
               <p className="">
                 {' '}
-                I value the UX/UI perspective design of a website because as
-                well all know, thats what brings in the customers. I am all
-                about numbers and goals so if the users are happy my job is a
-                lot easier
+                Valuing the UX/UI perspective design of a website is crucial as
+                it directly impacts customer engagement and business success. A
+                well-designed user experience enhances satisfaction, encourages
+                longer site visits, and boosts conversions. Prioritizing
+                usability, accessibility, and aesthetics ensures seamless
+                navigation and clear call-to-actions, ultimately leading to
+                higher customer retention rates. By analyzing user behavior and
+                feedback, you can continuously optimize the website, driving
+                better results and achieving business goals more effectively
               </p>
               <br />
               <p className="tool-title-sm">My Tools</p>
@@ -35,9 +40,9 @@ function About() {
                 <li>Javascript</li>
                 <li>CSS</li>
                 <li>Bootstrap</li>
-                <li>Handlebars</li>
+                <li>TypeScript</li>
                 <li>TailwindCSS</li>
-                <li>Bulma CSS</li>
+                <li>ReasonML</li>
               </ul>
             </div>
           </div>
@@ -52,10 +57,15 @@ function About() {
             <p className="tool-title">Back-End</p>
             <br />
             <p className="">
-              What would a structure be without its bones, the backend is a
-              vigorous part of my stack. I am well versed in many backend
-              entities and I am always up for a challenge to learn new things to
-              add to my stack
+              The backend serves as the foundation of any structure, providing
+              strength and support to the entire stack. As an experienced
+              developer, I have a strong grasp of various backend technologies
+              and frameworks. I thrive on challenges and constantly seek
+              opportunities to expand my skillset by learning new tools and
+              technologies to bolster my stack further. With a robust backend in
+              place, I can confidently build scalable, efficient, and secure
+              applications that deliver exceptional performance and meet diverse
+              business needs.{' '}
             </p>
             <br />
             <p className="tool-title-sm"> My Tools</p>
@@ -63,12 +73,8 @@ function About() {
 
             <ul>
               <li>GraphQL</li>
-              <li>Node.js </li>
-              <li>Express.js</li>
-              <li>NoSql</li>
-              <li>MySql</li>
-              <li>MongoDB</li>
-              <li>Mongoose</li>
+              <li>PostgreSQL </li>
+              <li>TablePlus</li>
             </ul>
           </div>
         </article>
@@ -80,38 +86,30 @@ function About() {
               alt="authors-img"
             />
             <h1 className="intro text-center">
-              Hello There! I'm Sam... Nice to finally meet you
+              Hello There! I'm Sam... Welcome to my portfolio!
             </h1>
           </div>
           <div className="about-text text-justify">
             <p>
-              I've been looking forward to this day, and I've got to say... it
-              was worth the wait
+              I am a passionate and dedicated web developer, combining the art
+              of design with the science of coding.
             </p>
             <br />
             <p>
-              I am a promising young developer in the industry looking to make
-              some noise. I am 27 years old out of Phoenix Arizona
+              With a focus on creating intuitive and delightful user
+              experiences, I strive to craft websites that leave a lasting
+              impression. From front-end magic to back-end robustness, I am
+              constantly expanding my skillset to take on new challenges. Let's
+              turn ideas into reality and build something extraordinary
+              together.
             </p>
             <br />
             <p>
-              I love playing videos games, watching sports, hiking, and learning
-              new things{' '}
+              Explore my projects and let's connect to embark on exciting web
+              adventures!{' '}
             </p>
             <br />
-            <p>
-              I'm a goal-oriented person who loves working towards accomplishing
-              a goal or multiple goals. I don't want to just show up, I want to
-              make a difference no matter how small it is. You just have to
-              start from somewhere{' '}
-            </p>
-            <br />
-            <p>
-              I love to laugh. If there is one thing college has taught me, it's
-              the fact that it takes 43 muscles to smile. Putting a smile on
-              your face puts a smile on someone elses. Pass it on, it's
-              contagious.
-            </p>
+            <p>Samuel O.</p>
           </div>
         </div>
       </div>
