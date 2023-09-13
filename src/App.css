@@ -27,6 +27,7 @@
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.75rem;
   --tiny-font-size: 0.625rem;
+  --icon-font-size: 1.7rem;
 
   /* ============= Font Weight ================ */
   --font-light: 300;
@@ -112,6 +113,11 @@ button {
   cursor: pointer;
 }
 
+.icon {
+  height: var(--icon-font-size);
+  width: var(--icon-font-size);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -173,15 +179,23 @@ img {
 /* ============= BREAKPOINTS ================ */
 /* Large devices */
 @media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* Medium devices */
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
 }
 
-@media screen and (max-width: 576) {
+@media screen and (max-width: 576px) {
 }
 
 /* Small devices */
-@media screen and (max-width: 350) {
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
