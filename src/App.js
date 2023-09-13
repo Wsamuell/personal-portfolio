@@ -1,14 +1,7 @@
-import React from 'react';
-import Footer from './component/Footer'
+import './App.css';
 
-import Render from './component/Render'
 function App() {
-  return (
-    <div className="App">
-      <Render />
-      <Footer />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
