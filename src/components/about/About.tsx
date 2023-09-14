@@ -23,7 +23,7 @@ const About = (props: Props) => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend Developer with over {''}
+            Software Developer with over {''}
             {calculateExperience(year)} years of hands-on experience, dedicated
             to crafting engaging and user-friendly web experiences through a
             combination of creative design and clean, efficient code.
