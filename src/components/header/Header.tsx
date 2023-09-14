@@ -52,16 +52,16 @@ const Header = () => {
               icon={<Tool className="icon nav__icon" />}
             />
             <TitleComponent
+              title="Services"
+              icon={<Star className="icon nav__icon" />}
+            />
+            <TitleComponent
               title="Portfolio"
               icon={<Photo className="icon nav__icon" />}
             />
             <TitleComponent
               title="Contact"
               icon={<Identification className="icon nav__icon" />}
-            />
-            <TitleComponent
-              title="Services"
-              icon={<Star className="icon nav__icon" />}
             />
           </ul>
           <XMark
