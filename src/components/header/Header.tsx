@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import HomeIcon from '@heroicons/react/24/outline/HomeIcon';
 import User from '@heroicons/react/24/outline/UserIcon';
-import NewspaperIcon from '@heroicons/react/24/outline/NewspaperIcon';
+import Tool from '@heroicons/react/24/outline/WrenchScrewdriverIcon';
 import Photo from '@heroicons/react/24/outline/PhotoIcon';
 import Identification from '@heroicons/react/24/outline/IdentificationIcon';
 import XMark from '@heroicons/react/24/outline/XMarkIcon';
 import Bars3 from '@heroicons/react/24/outline/Bars3Icon';
-import Moon from '@heroicons/react/24/outline/MoonIcon';
+import Star from '@heroicons/react/24/outline/StarIcon';
 import './header.css';
 
 type HeaderProps = {
@@ -49,7 +49,7 @@ const Header = () => {
             />
             <TitleComponent
               title="Skills"
-              icon={<NewspaperIcon className="icon nav__icon" />}
+              icon={<Tool className="icon nav__icon" />}
             />
             <TitleComponent
               title="Portfolio"
@@ -59,7 +59,10 @@ const Header = () => {
               title="Contact"
               icon={<Identification className="icon nav__icon" />}
             />
-            <TitleComponent icon={<Moon className="icon nav__icon" />} />
+            <TitleComponent
+              title="Services"
+              icon={<Star className="icon nav__icon" />}
+            />
           </ul>
           <XMark
             className="icon nav__close"
