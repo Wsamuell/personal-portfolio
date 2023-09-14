@@ -16,7 +16,6 @@ type ContactProps = {
 
 export const ContactComponent = (props: ContactProps) => {
   return (
-    // <div className="contact__card">
     <a
       href={props.link}
       target={props.newPage ? '_blank' : '_self'}
@@ -26,7 +25,6 @@ export const ContactComponent = (props: ContactProps) => {
       {props.title && <h3 className="contact__card-title">{props.title}</h3>}
       {props.data}
     </a>
-    // </div>
   );
 };
 

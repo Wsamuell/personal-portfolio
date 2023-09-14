@@ -18,6 +18,11 @@
   margin-bottom: var(--mb-2);
 }
 
+.contact__button:hover {
+  transform: translate(0, -0.5rem);
+  transition: all 0.3s ease-in-out;
+}
+
 .contact__button {
   display: flex;
   align-items: center;
