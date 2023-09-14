@@ -1,5 +1,5 @@
 import React from 'react';
-import { CiLocationArrow1 } from 'react-icons/ci';
+import PaperAirplane from '@heroicons/react/24/outline/PaperAirplaneIcon';
 import { motion } from 'framer-motion';
 
 type Props = {};
@@ -20,7 +20,7 @@ const WavingHand = () => {
         repeatDelay: 0,
       }}
     >
-      👋
+      👋🏿
     </motion.div>
   );
 };
@@ -41,7 +41,7 @@ const Data = (props: Props) => {
           style={{ display: 'flex', flexDirection: 'row', alignSelf: 'center' }}
         >
           Say Hello
-          <CiLocationArrow1 className="icon button__icon" />
+          <PaperAirplane className="icon button__icon" />
         </div>
       </a>
     </div>
