@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import HomeIcon from '@heroicons/react/24/outline/HomeIcon';
 import User from '@heroicons/react/24/outline/UserIcon';
 import NewspaperIcon from '@heroicons/react/24/outline/NewspaperIcon';
