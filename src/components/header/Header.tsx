@@ -41,27 +41,48 @@ const Header = () => {
             <TitleComponent
               title="Home"
               style={'active-link'}
-              icon={<HomeIcon className="icon nav__icon" />}
+              icon={
+                <HomeIcon
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
             />
             <TitleComponent
               title="About"
-              icon={<User className="icon nav__icon" />}
+              icon={
+                <User
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
             />
             <TitleComponent
               title="Skills"
-              icon={<Tool className="icon nav__icon" />}
-            />
-            <TitleComponent
-              title="Services"
-              icon={<Star className="icon nav__icon" />}
+              icon={
+                <Tool
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
             />
             <TitleComponent
               title="Portfolio"
-              icon={<Photo className="icon nav__icon" />}
+              icon={
+                <Photo
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
             />
             <TitleComponent
               title="Contact"
-              icon={<Identification className="icon nav__icon" />}
+              icon={
+                <Identification
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
             />
           </ul>
           <XMark

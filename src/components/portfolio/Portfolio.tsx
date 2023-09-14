@@ -61,7 +61,7 @@ export const RightQualificationComponent = (props: QualificationProps) => {
 
 const Portfolio = () => {
   const [toggleState, setToggleState] = React.useState<ToggleState>(
-    ToggleState.education
+    ToggleState.experience
   );
   const toggleTab = (index: ToggleState) => {
     setToggleState(index);

@@ -5,9 +5,8 @@ import Bookmark from '@heroicons/react/24/outline/BookmarkIcon';
 import Info from './Info';
 import Resume from '../../assets/resume.pdf';
 
-type Props = {};
 
-const About = (props: Props) => {
+const About = () => {
   const date = new Date();
   const year = date.getFullYear();
   const calculateExperience = (year: number) => {

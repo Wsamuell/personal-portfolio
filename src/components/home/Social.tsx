@@ -20,15 +20,15 @@ const Social = () => {
   return (
     <div className="home__social">
       <SocialComponent
-        icon={<PiGithubLogo className="icon" />}
+        icon={<PiGithubLogo style={{ width: '24px', height: '24px' }} />}
         link={'https://github.com/Wsamuell'}
       />
       <SocialComponent
-        icon={<TiSocialLinkedin className="icon" />}
+        icon={<TiSocialLinkedin style={{ width: '24px', height: '24px' }} />}
         link={'https://www.linkedin.com/in/samuel-odubamowo-567229207/'}
       />
       <SocialComponent
-        icon={<TbBrandUpwork className="icon" />}
+        icon={<TbBrandUpwork style={{ width: '24px', height: '24px' }} />}
         link={'https://www.upwork.com/freelancers/~0132e18337d157621a'}
       />
     </div>

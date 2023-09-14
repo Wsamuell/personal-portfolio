@@ -1,0 +1,43 @@
+.contact__container {
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  align-items: center;
+  column-gap: 6rem;
+  padding-bottom: 3rem;
+}
+
+.contact__description {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
+
+.contact__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  width: 17rem;
+  height: 11rem;
+  flex-direction: column;
+  background-color: var(--container-color);
+  border-radius: 0.5rem;
+  color: var(--text-color);
+}
+
+/* ============= BREAKPOINTS ================ */
+
+/* Small devices */
+@media screen and (max-width: 350px) {
+  .contact__button {
+    width: 15rem;
+    height: 7rem;
+    font-size: var(--tiny-font-size);
+  }
+}
