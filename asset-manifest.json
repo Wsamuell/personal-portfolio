@@ -1,31 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.06b5f9f0.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.3bcbbf17.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.3bcbbf17.chunk.js.map",
-    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.d34d5919.js",
-    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.d34d5919.js.map",
-    "static/js/2.aa625bb7.chunk.js": "/personal-portfolio/static/js/2.aa625bb7.chunk.js",
-    "static/js/2.aa625bb7.chunk.js.map": "/personal-portfolio/static/js/2.aa625bb7.chunk.js.map",
-    "static/js/3.52ee8a33.chunk.js": "/personal-portfolio/static/js/3.52ee8a33.chunk.js",
-    "static/js/3.52ee8a33.chunk.js.map": "/personal-portfolio/static/js/3.52ee8a33.chunk.js.map",
+    "main.css": "/personal-portfolio/static/css/main.f4125f72.css",
+    "main.js": "/personal-portfolio/static/js/main.a956577a.js",
+    "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.f1e2dc16696fb61d46f1.jpg",
+    "static/media/about-me-img.jpg": "/personal-portfolio/static/media/about-me-img.75fa1d7ba6bf3dfb6af9.jpg",
+    "static/media/FocusTimer.png": "/personal-portfolio/static/media/FocusTimer.bc5f4bb9ae0032fe6745.png",
+    "static/media/JobHunt.png": "/personal-portfolio/static/media/JobHunt.0603b7e7d1b393c77a63.png",
+    "static/media/CrustySams.png": "/personal-portfolio/static/media/CrustySams.0e39f448ffbc7f1f7711.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.35b4712986a675543b2c.pdf",
     "index.html": "/personal-portfolio/index.html",
-    "static/css/main.06b5f9f0.chunk.css.map": "/personal-portfolio/static/css/main.06b5f9f0.chunk.css.map",
-    "static/js/2.aa625bb7.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.aa625bb7.chunk.js.LICENSE.txt",
-    "static/media/Golden.mp4": "/personal-portfolio/static/media/Golden.4f4ed880.mp4",
-    "static/media/back-end.png": "/personal-portfolio/static/media/back-end.918d8b12.png",
-    "static/media/contact-dogs.jpg": "/personal-portfolio/static/media/contact-dogs.4c3fc402.jpg",
-    "static/media/front-end.png": "/personal-portfolio/static/media/front-end.f135129f.png",
-    "static/media/github.png": "/personal-portfolio/static/media/github.553c6615.png",
-    "static/media/gmail.png": "/personal-portfolio/static/media/gmail.a2f2146f.png",
-    "static/media/linkedin.png": "/personal-portfolio/static/media/linkedin.cc1494dd.png",
-    "static/media/main.png": "/personal-portfolio/static/media/main.1460ed73.png",
-    "static/media/mini.png": "/personal-portfolio/static/media/mini.f79efed6.png"
+    "main.f4125f72.css.map": "/personal-portfolio/static/css/main.f4125f72.css.map",
+    "main.a956577a.js.map": "/personal-portfolio/static/js/main.a956577a.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d34d5919.js",
-    "static/js/2.aa625bb7.chunk.js",
-    "static/css/main.06b5f9f0.chunk.css",
-    "static/js/main.3bcbbf17.chunk.js"
+    "static/css/main.f4125f72.css",
+    "static/js/main.a956577a.js"
   ]
 }
