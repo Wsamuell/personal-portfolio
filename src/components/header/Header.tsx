@@ -12,14 +12,15 @@ import './header.css';
 type HeaderProps = {
   title?: string;
   icon: React.ReactNode;
-  style?: string;
+  link: string;
+  styles?: string;
   onClick?: () => void;
 };
 
 export const TitleComponent = (props: HeaderProps) => {
   return (
     <li className="nav__item">
-      <a href={`#${props.title}`} className={`nav__link ${props.style}`}>
+      <a href={`#${props.link}`} className={`nav__link ${props.styles}`}>
         {props.icon}
         <div>{props.title}</div>
       </a>
@@ -40,7 +41,8 @@ const Header = () => {
           <ul className="nav__list grid">
             <TitleComponent
               title="Home"
-              style={'active-link'}
+              link="home"
+              styles="active-link"
               icon={
                 <HomeIcon
                   style={{ width: '24px', height: '24px' }}
@@ -50,6 +52,7 @@ const Header = () => {
             />
             <TitleComponent
               title="About"
+              link="about"
               icon={
                 <User
                   style={{ width: '24px', height: '24px' }}
@@ -59,6 +62,7 @@ const Header = () => {
             />
             <TitleComponent
               title="Skills"
+              link="skills"
               icon={
                 <Tool
                   style={{ width: '24px', height: '24px' }}
@@ -68,6 +72,7 @@ const Header = () => {
             />
             <TitleComponent
               title="Portfolio"
+              link="portfolio"
               icon={
                 <Photo
                   style={{ width: '24px', height: '24px' }}
@@ -75,8 +80,20 @@ const Header = () => {
                 />
               }
             />
+
+            <TitleComponent
+              title="Projects"
+              link="projects"
+              icon={
+                <Star
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
+            />
             <TitleComponent
               title="Contact"
+              link="contact"
               icon={
                 <Identification
                   style={{ width: '24px', height: '24px' }}

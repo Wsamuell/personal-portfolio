@@ -19,6 +19,7 @@ export const ContactComponent = (props: ContactProps) => {
     <a
       href={props.link}
       target={props.newPage ? '_blank' : '_self'}
+      rel="noreferrer"
       className="contact__button"
     >
       {props.icon}

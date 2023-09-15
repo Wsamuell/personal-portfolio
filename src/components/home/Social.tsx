@@ -10,7 +10,12 @@ type SocialProps = {
 
 export const SocialComponent = (props: SocialProps) => {
   return (
-    <a href={props.link} className="home__social-icon" target="_blank">
+    <a
+      href={props.link}
+      className="home__social-icon"
+      target="_blank"
+      rel="noreferrer"
+    >
       {props.icon}
     </a>
   );
