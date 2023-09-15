@@ -2,8 +2,6 @@ import React from 'react';
 import PaperAirplane from '@heroicons/react/24/outline/PaperAirplaneIcon';
 import { motion } from 'framer-motion';
 
-type Props = {};
-
 const WavingHand = () => {
   return (
     <motion.div
@@ -25,7 +23,7 @@ const WavingHand = () => {
   );
 };
 
-const Data = (props: Props) => {
+const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">

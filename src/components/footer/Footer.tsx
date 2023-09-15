@@ -6,7 +6,6 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 import ScrollUp from './ScrollUp';
 
 const Footer = () => {
-  const date = new Date().getFullYear();
   return (
     <footer className="footer">
       <ScrollUp />
@@ -20,12 +19,12 @@ const Footer = () => {
           </li>
           <li>
             <a href="#portfolio" className="footer__link">
-              Porfolio
+              Portfolio
             </a>
           </li>
           <li>
-            <a href="#project" className="footer__link">
-              Project
+            <a href="#journey" className="footer__link">
+              Journey
             </a>
           </li>
         </ul>
@@ -42,7 +41,7 @@ const Footer = () => {
           />
         </div>
         <p className="footer__dedication">
-          © Sammy {date}. All Rights Reserved.
+          Copyright © 2021 Samuel Wemimo. All rights reserved.
         </p>
       </div>
     </footer>

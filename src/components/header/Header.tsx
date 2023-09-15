@@ -48,7 +48,7 @@ const Header = () => {
         'contact',
         'home',
         'portfolio',
-        'projects',
+        'journey',
         'skills',
       ];
       navItems.forEach((item) => {
@@ -110,8 +110,8 @@ const Header = () => {
               }
             />
             <TitleComponent
-              title="Portfolio"
-              link="portfolio"
+              title="Journey"
+              link="journey"
               styles={activeNavItem === 'portfolio' ? 'active-link' : ''}
               icon={
                 <Photo
@@ -122,9 +122,9 @@ const Header = () => {
             />
 
             <TitleComponent
-              title="Projects"
-              link="projects"
-              styles={activeNavItem === 'projects' ? 'active-link' : ''}
+              title="Portfolio"
+              link="portfolio"
+              styles={activeNavItem === 'portfolio' ? 'active-link' : ''}
               icon={
                 <Star
                   style={{ width: '24px', height: '24px' }}
