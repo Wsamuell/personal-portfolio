@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import HomeIcon from '@heroicons/react/24/outline/HomeIcon';
 import User from '@heroicons/react/24/outline/UserIcon';
 import Tool from '@heroicons/react/24/outline/WrenchScrewdriverIcon';
@@ -30,6 +30,43 @@ export const TitleComponent = (props: HeaderProps) => {
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+  const [activeNavItem, setActiveNavItem] = useState<string>('home');
+
+  useEffect(() => {
+    const isElementInViewport = (el: HTMLElement) => {
+      const rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight)
+      );
+    };
+
+    const setActiveNavigationItem = () => {
+      const navItems = [
+        'about',
+        'contact',
+        'home',
+        'portfolio',
+        'projects',
+        'skills',
+      ];
+      navItems.forEach((item) => {
+        const section = document.getElementById(item);
+        if (section && isElementInViewport(section)) {
+          setActiveNavItem(item);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', setActiveNavigationItem);
+
+    setActiveNavigationItem();
+
+    return () => {
+      window.removeEventListener('scroll', setActiveNavigationItem);
+    };
+  }, []);
 
   return (
     <header>
@@ -42,7 +79,7 @@ const Header = () => {
             <TitleComponent
               title="Home"
               link="home"
-              styles="active-link"
+              styles={activeNavItem === 'home' ? 'active-link' : ''}
               icon={
                 <HomeIcon
                   style={{ width: '24px', height: '24px' }}
@@ -53,6 +90,7 @@ const Header = () => {
             <TitleComponent
               title="About"
               link="about"
+              styles={activeNavItem === 'about' ? 'active-link' : ''}
               icon={
                 <User
                   style={{ width: '24px', height: '24px' }}
@@ -63,6 +101,7 @@ const Header = () => {
             <TitleComponent
               title="Skills"
               link="skills"
+              styles={activeNavItem === 'skills' ? 'active-link' : ''}
               icon={
                 <Tool
                   style={{ width: '24px', height: '24px' }}
@@ -73,6 +112,7 @@ const Header = () => {
             <TitleComponent
               title="Portfolio"
               link="portfolio"
+              styles={activeNavItem === 'portfolio' ? 'active-link' : ''}
               icon={
                 <Photo
                   style={{ width: '24px', height: '24px' }}
@@ -84,6 +124,7 @@ const Header = () => {
             <TitleComponent
               title="Projects"
               link="projects"
+              styles={activeNavItem === 'projects' ? 'active-link' : ''}
               icon={
                 <Star
                   style={{ width: '24px', height: '24px' }}
@@ -94,6 +135,7 @@ const Header = () => {
             <TitleComponent
               title="Contact"
               link="contact"
+              styles={activeNavItem === 'contact' ? 'active-link' : ''}
               icon={
                 <Identification
                   style={{ width: '24px', height: '24px' }}

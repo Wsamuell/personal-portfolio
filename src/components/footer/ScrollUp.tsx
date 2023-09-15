@@ -24,7 +24,7 @@ const ScrollUp = (props: Props) => {
   }, []);
 
   return (
-    <a href="#" className="scroll__up">
+    <a href="#home" className="scroll__up">
       <CheveronDoubleUp
         style={{ color: 'var(--text-color)', width: '24px', height: '24px' }}
         className="wheel"
