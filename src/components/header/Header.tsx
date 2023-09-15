@@ -68,6 +68,10 @@ const Header = () => {
     };
   }, []);
 
+  useEffect(() => {
+    document.title = `Sammy | ${activeNavItem}`;
+  }, [activeNavItem]);
+
   return (
     <header>
       <nav className="nav container">
