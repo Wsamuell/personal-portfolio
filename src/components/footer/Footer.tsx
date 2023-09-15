@@ -3,11 +3,13 @@ import './footer.css';
 import { SocialComponent } from '../home/Social';
 import { FaSquareGithub } from 'react-icons/fa6';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+import ScrollUp from './ScrollUp';
 
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
     <footer className="footer">
+      <ScrollUp />
       <div className="footer__container container">
         <h1 className="footer__title">Sammy</h1>
         <ul className="footer__list">

@@ -3,6 +3,30 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.scroll__up {
+  position: fixed;
+  bottom: -20%;
+  right: 2rem;
+  z-index: var(--z-tooltip);
+  background-color: var(--title-color);
+  opacity: 0.7;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.scroll__up:hover {
+  opacity: 1;
+  background-color: var(--title-color);
+  transform: translateY(-0.25rem);
+  transition: 0.4s ease-in-out;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+
 .footer__container {
   padding: 2rem 0 6rem;
 }
