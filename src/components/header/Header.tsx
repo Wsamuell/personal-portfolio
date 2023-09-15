@@ -110,23 +110,22 @@ const Header = () => {
               }
             />
             <TitleComponent
-              title="Journey"
-              link="journey"
-              styles={activeNavItem === 'portfolio' ? 'active-link' : ''}
-              icon={
-                <Photo
-                  style={{ width: '24px', height: '24px' }}
-                  className="nav__icon"
-                />
-              }
-            />
-
-            <TitleComponent
               title="Portfolio"
               link="portfolio"
               styles={activeNavItem === 'portfolio' ? 'active-link' : ''}
               icon={
                 <Star
+                  style={{ width: '24px', height: '24px' }}
+                  className="nav__icon"
+                />
+              }
+            />
+            <TitleComponent
+              title="Journey"
+              link="journey"
+              styles={activeNavItem === 'journey' ? 'active-link' : ''}
+              icon={
+                <Photo
                   style={{ width: '24px', height: '24px' }}
                   className="nav__icon"
                 />
