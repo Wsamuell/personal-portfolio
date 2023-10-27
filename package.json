@@ -1,7 +1,7 @@
 {
   "name": "sammy-portfolio",
   "version": "0.1.0",
-  "homepage": "https://wsamuell.github.io/personal-portfolio",
+  "homepage": "https://wsamuell.github.io/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.18",
