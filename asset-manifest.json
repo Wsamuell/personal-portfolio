@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec460665.css",
-    "main.js": "/static/js/main.abbb7684.js",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.f1e2dc16696fb61d46f1.jpg",
-    "static/media/about-me-img.jpg": "/static/media/about-me-img.75fa1d7ba6bf3dfb6af9.jpg",
-    "static/media/FocusTimer.png": "/static/media/FocusTimer.bc5f4bb9ae0032fe6745.png",
-    "static/media/JobHunt.png": "/static/media/JobHunt.0603b7e7d1b393c77a63.png",
-    "static/media/CrustySams.png": "/static/media/CrustySams.0e39f448ffbc7f1f7711.png",
-    "static/media/resume.pdf": "/static/media/resume.35b4712986a675543b2c.pdf",
-    "index.html": "/index.html",
-    "main.ec460665.css.map": "/static/css/main.ec460665.css.map",
-    "main.abbb7684.js.map": "/static/js/main.abbb7684.js.map"
+    "main.css": "/personal-portfolio/static/css/main.f4125f72.css",
+    "main.js": "/personal-portfolio/static/js/main.a956577a.js",
+    "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.f1e2dc16696fb61d46f1.jpg",
+    "static/media/about-me-img.jpg": "/personal-portfolio/static/media/about-me-img.75fa1d7ba6bf3dfb6af9.jpg",
+    "static/media/FocusTimer.png": "/personal-portfolio/static/media/FocusTimer.bc5f4bb9ae0032fe6745.png",
+    "static/media/JobHunt.png": "/personal-portfolio/static/media/JobHunt.0603b7e7d1b393c77a63.png",
+    "static/media/CrustySams.png": "/personal-portfolio/static/media/CrustySams.0e39f448ffbc7f1f7711.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.35b4712986a675543b2c.pdf",
+    "index.html": "/personal-portfolio/index.html",
+    "main.f4125f72.css.map": "/personal-portfolio/static/css/main.f4125f72.css.map",
+    "main.a956577a.js.map": "/personal-portfolio/static/js/main.a956577a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec460665.css",
-    "static/js/main.abbb7684.js"
+    "static/css/main.f4125f72.css",
+    "static/js/main.a956577a.js"
   ]
 }
