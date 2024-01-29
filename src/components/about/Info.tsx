@@ -35,7 +35,7 @@ const Info = () => {
       <InfoComponent
         icon={<CodeBracket className="icon about__icon" />}
         title={'Completed'}
-        subtitle={'15+ Projects'}
+        subtitle={'60+ Projects'}
       />
       <InfoComponent
         icon={<PuzzlePiece className="icon about__icon" />}

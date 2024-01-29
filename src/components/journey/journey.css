@@ -19,6 +19,7 @@
 .qualification__calender {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .qualification__button:hover {

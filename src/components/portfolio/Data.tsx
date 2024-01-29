@@ -1,28 +1,53 @@
 import JobHunt from '../../assets/JobHunt.png';
 import CrustySams from '../../assets/CrustySams.png';
 import FocusTimer from '../../assets/FocusTimer.png';
+import Plify from '../../assets/Plify.png';
+import CountrySelect from '../../assets/CountrySelect.png';
+import MovieInfo from '../../assets/MovieInfo.png';
 
 export const portfolioData = [
   {
     id: 1,
-    title: 'JobHunt',
-    category: 'App',
-    image: JobHunt,
-    construction: true,
+    title: 'Plify',
+    category: 'Web',
+    image: Plify,
+    link: 'https://github.com/Wsamuell/url-shortner/',
   },
   {
     id: 2,
+    title: 'Movie Info',
+    category: 'Web',
+    image: MovieInfo,
+    link: 'https://flourishing-halva-ae980f.netlify.app/',
+  },
+
+  {
+    id: 3,
+    title: 'Country Selector',
+    category: 'Design',
+    image: CountrySelect,
+    link: 'https://wsamuell.github.io/country-selector/',
+  },
+  {
+    id: 4,
+    title: 'Focus Timer',
+    category: 'Web',
+    image: FocusTimer,
+    link: 'https://focustimer.web.app/',
+  },
+  {
+    id: 5,
     title: "Crusty Sam's",
     category: 'Web',
     image: CrustySams,
     link: 'https://pizza-man-391321.web.app/',
   },
   {
-    id: 3,
-    title: 'Focus Timer',
-    category: 'Web',
-    image: FocusTimer,
-    link: 'https://focustimer.web.app/',
+    id: 6,
+    title: 'JobHunt',
+    category: 'App',
+    image: JobHunt,
+    construction: true,
   },
 ];
 

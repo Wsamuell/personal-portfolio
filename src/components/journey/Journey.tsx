@@ -133,25 +133,30 @@ const Journey = () => {
                 : 'qualification__content'
             }
           >
+            <RightQualificationComponent
+              title="Frontend Software Engineer"
+              subtitle="Upwork"
+              date=" September 2023 - Present"
+            />
             <LeftQualificationComponent
-              title="Software Engineer"
+              title="Full Stack Software Engineer"
               subtitle="Qwick"
-              date="2023 - Present"
+              date="January 2023 - August 2023"
             />
             <RightQualificationComponent
-              title="Junior Software Engineer"
+              title="Junior Full Stack Software Engineer"
               subtitle="Qwick"
-              date="2021 - 2023"
+              date="January 2022 - December 2022"
             />
             <LeftQualificationComponent
               title="Software Engineer Resident Intern"
               subtitle="Metromile Insurance"
-              date="2021 - 2021"
+              date="October 2021 - January 2022"
             />
             <RightQualificationComponent
               title="Freelance Software Engineer"
               subtitle="Upwork"
-              date="2021 - 2023"
+              date="April 2021 - January 2022"
             />
           </div>
         </div>
