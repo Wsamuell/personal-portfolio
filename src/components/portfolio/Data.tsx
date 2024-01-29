@@ -11,7 +11,7 @@ export const portfolioData = [
     title: 'Plify',
     category: 'Web',
     image: Plify,
-    link: 'https://github.com/Wsamuell/url-shortner/',
+    link: 'https://plify-01328a03f893.herokuapp.com/',
   },
   {
     id: 2,
