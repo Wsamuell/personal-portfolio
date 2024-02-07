@@ -20,7 +20,6 @@
 
 .contact__button:hover {
   transform: translate(0, -0.5rem);
-  transition: all 1s ease-in-out;
 }
 
 .contact__button {
@@ -34,6 +33,7 @@
   background-color: var(--container-color);
   border-radius: 0.5rem;
   color: var(--text-color);
+  transition: all 1s ease-in-out;
 }
 
 /* ============= BREAKPOINTS ================ */
