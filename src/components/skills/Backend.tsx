@@ -1,5 +1,6 @@
 import React from 'react';
 import { SkillComponent } from './Frontend';
+import { Level } from './enum';
 
 type Props = {};
 
@@ -10,12 +11,14 @@ const Backend = (props: Props) => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <SkillComponent name={'Node Js'} level={'Basic'} />
-          <SkillComponent name={'Express'} level={'Intermediate'} />
-          <SkillComponent name={'PostgreSQL'} level={'Intermediate'} />
-          <SkillComponent name={'ReasonML'} level={'Intermediate'} />
-          <SkillComponent name={'Firebase'} level={'Intermediate'} />
-          <SkillComponent name={'SQL'} level={'Intermediate'} />
+          <SkillComponent name={'Node Js'} level={Level.Basic} />
+          <SkillComponent name={'Express'} level={Level.Intermediate} />
+          <SkillComponent name={'PostgreSQL'} level={Level.Intermediate} />
+          <SkillComponent name={'ReasonML'} level={Level.Intermediate} />
+          <SkillComponent name={'Firebase'} level={Level.Intermediate} />
+          <SkillComponent name={'SQL'} level={Level.Intermediate} />
+          <SkillComponent name={'AWS'} level={Level.Basic} />
+          <SkillComponent name={'Ocaml'} level={Level.Intermediate} />
         </div>
       </div>
     </div>

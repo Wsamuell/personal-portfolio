@@ -1,5 +1,6 @@
 import React from 'react';
 import CheckBadge from '@heroicons/react/24/outline/CheckBadgeIcon';
+import { Level } from './enum';
 
 type SkillProps = {
   name: string;
@@ -25,12 +26,14 @@ const Fronend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <SkillComponent name={'HTML'} level={'Basic'} />
-          <SkillComponent name={'CSS'} level={'Intermediate'} />
-          <SkillComponent name={'Javascript'} level={'Intermediate'} />
-          <SkillComponent name={'Typescript'} level={'Intermediate'} />
-          <SkillComponent name={'GraphQL'} level={'Intermediate'} />
-          <SkillComponent name={'React'} level={'Intermediate'} />
+          <SkillComponent name={'HTML'} level={Level.Basic} />
+          <SkillComponent name={'CSS'} level={Level.Intermediate} />
+          <SkillComponent name={'Javascript'} level={Level.Intermediate} />
+          <SkillComponent name={'Typescript'} level={Level.Intermediate} />
+          <SkillComponent name={'GraphQL'} level={Level.Intermediate} />
+          <SkillComponent name={'React Native'} level={Level.Intermediate} />
+          <SkillComponent name={'React'} level={Level.Intermediate} />
+          <SkillComponent name={'Swift'} level={Level.Intermediate} />
         </div>
       </div>
     </div>
