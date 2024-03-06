@@ -1,20 +1,25 @@
 import JobHunt from '../../assets/JobHunt.png';
 import CrustySams from '../../assets/CrustySams.png';
 import FocusTimer from '../../assets/FocusTimer.png';
-import Plify from '../../assets/Plify.png';
 import CountrySelect from '../../assets/CountrySelect.png';
 import MovieInfo from '../../assets/MovieInfo.png';
+import RedShipper from '../../assets/redShipper.png';
+import Konnect from '../../assets/konnect.png';
 
 export const portfolioData = [
   {
-    id: 1,
-    title: 'Plify',
+    title: 'Konnect',
     category: 'Web',
-    image: Plify,
-    link: 'https://plify-01328a03f893.herokuapp.com/',
+    image: Konnect,
+    link: 'https://konnect-lime.vercel.app/',
   },
   {
-    id: 2,
+    title: 'Order Manager',
+    category: 'Web',
+    image: RedShipper,
+    link: 'https://red-shipper.netlify.app/',
+  },
+  {
     title: 'Movie Info',
     category: 'Web',
     image: MovieInfo,
@@ -22,28 +27,24 @@ export const portfolioData = [
   },
 
   {
-    id: 3,
     title: 'Country Selector',
     category: 'Design',
     image: CountrySelect,
     link: 'https://wsamuell.github.io/country-selector/',
   },
   {
-    id: 4,
     title: 'Focus Timer',
     category: 'Web',
     image: FocusTimer,
     link: 'https://focustimer.web.app/',
   },
   {
-    id: 5,
     title: "Crusty Sam's",
     category: 'Web',
     image: CrustySams,
     link: 'https://pizza-man-391321.web.app/',
   },
   {
-    id: 6,
     title: 'JobHunt',
     category: 'App',
     image: JobHunt,

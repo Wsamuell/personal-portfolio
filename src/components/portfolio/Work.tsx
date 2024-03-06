@@ -74,15 +74,15 @@ const Work = () => {
         })}
       </div>
       <div className="portfolio__container container grid">
-        {filteredPortfolio.map((item) => {
+        {filteredPortfolio.map((item, index) => {
           return (
             <WorkItemComponent
-              id={item.id}
+              id={index}
               title={item.title}
               image={item.image}
               construction={item.construction}
               link={item.link}
-              key={item.id}
+              key={index}
             />
           );
         })}
